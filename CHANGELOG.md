@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-18)
+## Unreleased (2025-05-21)
 
 <section class="features">
 
@@ -23,6 +23,8 @@
 
 <details>
 
+-   [`c76fda3`](https://github.com/stdlib-js/stdlib/commit/c76fda338a38ced6292591153522858817f47c11) - **bench:** update Makefiles to follow current project conventions _(by Karan Anand)_
+-   [`1cfea57`](https://github.com/stdlib-js/stdlib/commit/1cfea575fc941a1e3e4f2c492f64b339906880a5) - **refactor:** remove `typedef` from `STDLIB_BASE_HEAVISIDEF_CONTINUITY` enum definition _(by Karan Anand)_
 -   [`9b48575`](https://github.com/stdlib-js/stdlib/commit/9b48575a2670874e64b076f79ebd9989b43db5a0) - **feat:** add C implementation for `math/base/special/heavisidef` [(#7022)](https://github.com/stdlib-js/stdlib/pull/7022) _(by Karan Anand, stdlib-bot)_
 -   [`0395909`](https://github.com/stdlib-js/stdlib/commit/03959095fb9ffbe34ca9603b27c5204ce82d8c89) - **docs:** replace manual `for` loop in examples [(#6638)](https://github.com/stdlib-js/stdlib/pull/6638) _(by Harsh)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
