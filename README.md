@@ -108,7 +108,7 @@ H(x) = \begin{cases} x & \textrm{if}\ x \geq 0 \\ 0 & \textrm{if}\ x \lt 0\end{c
 ## Usage
 
 ```javascript
-import heavisidef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-heavisidef@deno/mod.js';
+import heavisidef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-heavisidef@v0.1.1-deno/mod.js';
 ```
 
 #### heavisidef( x\[, continuity] )
@@ -165,7 +165,7 @@ v = heavisidef( 0.0, 'right-continuous' );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import heavisidef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-heavisidef@deno/mod.js';
+import heavisidef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-heavisidef@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
